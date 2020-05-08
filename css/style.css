@@ -5,14 +5,11 @@
 }
 
 h1{
-    display: flex;
-    margin: auto;
-    flex-direction: column;
-    font-size: 100px;
-    margin-top: 5rem;
+    position: absolute;
+    font-size: 70px;
     color: black;
     font-family: 'Bangers';
-    margin-left: 12rem;
+    margin-left: 3rem;
 
 }
 
@@ -98,6 +95,10 @@ img{
     background-color: #ffc1cc;
 }
 
+h2{
+    display: none;
+}
+
 
   }
 
@@ -113,10 +114,20 @@ img{
     }
     
     h1{
-        display: flex;
-        font-size: 100px;
+        position: absolute;
+        margin-left: 3rem;
+        font-size: 70px;
         color: black;
-        font-family: 'Bangers';    
+        font-family: 'Bangers';
+    }
+    h2{
+        position: absolute;
+        font-size: 70px;
+        color: black;
+        font-family: 'Bangers';
+        margin-left: 5rem;
+        line-height: 80rem;
+    
     }
 
     img{
