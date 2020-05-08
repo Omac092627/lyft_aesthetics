@@ -1,0 +1,218 @@
+@media screen and (min-width: 1000px) {
+*{
+    width: 100%;
+    height: 100%;
+}
+
+h1{
+    display: flex;
+    margin: auto;
+    flex-direction: column;
+    font-size: 100px;
+    margin-top: 5rem;
+    color: black;
+    font-family: 'Bangers';
+    margin-left: 12rem;
+
+}
+
+img{
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    margin-right: 3rem;
+}
+
+.flexbox2{
+    display: flex;
+    
+}
+
+
+/*  */
+
+
+
+#st{
+    /* margin-right: 1em; */
+    background-color: black;
+    color: white;
+    border: 1px solid black;
+    box-shadow: 0px 0px 10px 10px #ffc1cc;
+    font-family: 'bangers';
+    font-size: 20px;
+    padding: 4rem;
+    margin-right: 3rem;
+    
+}
+
+#st:hover{
+    background-color: #ffc1cc;
+}
+
+#nd{
+    /* margin-right: 1em; */
+    background-color: black;
+    color: white;
+    border: 1px solid black;
+    box-shadow: 0px 0px 10px 10px #ffc1cc;
+    font-family: 'bangers';
+    font-size: 20px;
+    padding: 4rem;
+    margin-right: 3rem;
+
+}
+#nd:hover{
+    background-color: #ffc1cc;
+}
+
+#rd{
+    /* margin-right: 1em; */
+    background-color: black;
+    color: white;
+    border: 1px solid black;
+    box-shadow: 0px 0px 10px 10px #ffc1cc;
+    font-family: 'bangers';
+    font-size: 20px;
+    padding: 4rem;
+    margin-right: 3rem;
+}
+
+#rd:hover{
+    background-color: #ffc1cc;
+}
+
+#th{
+    float: left;
+    background-color: black;
+    color: white;
+    border: 1px solid black;
+    box-shadow: 0px 0px 10px 10px #ffc1cc;
+    font-family: 'bangers';
+    font-size: 20px;
+    padding: 4rem;
+    margin-right: 3rem;
+
+}
+#th:hover{
+    background-color: #ffc1cc;
+}
+
+
+  }
+
+
+
+
+
+  /* If screen size is 600px wide, or less, set the font-size of <div> to 30px */
+@media screen and (max-width: 600px) {
+    *{
+        width: 100%;
+        height: 100%;
+    }
+    
+    h1{
+        display: flex;
+        font-size: 100px;
+        color: black;
+        font-family: 'Bangers';    
+    }
+
+    img{
+        display: flex;
+        flex-direction: column wrap;
+    }
+    
+    .flexbox2{
+        display: flex;
+        width: 100%;
+        /* position: fixed; */
+        flex-direction: column wrap;
+        
+    }
+    
+    
+    
+    body{
+        display: flex;
+        flex: 1;
+    }
+    
+    
+    
+    #st{
+        /* margin-right: 1em; */
+        background-color: black;
+        color: white;
+        border: 1px solid black;
+        box-shadow: 0px 0px 10px 10px #ffc1cc;
+        font-family: 'bangers';
+        font-size: 20px;
+        padding: 3rem;
+        margin-bottom: 1rem;
+    
+    }
+    
+    #st:hover{
+        background-color: #ffc1cc;
+    }
+    
+    #nd{
+        /* margin-right: 1em; */
+        background-color: black;
+        color: white;
+        border: 1px solid black;
+        box-shadow: 0px 0px 10px 10px #ffc1cc;
+        font-family: 'bangers';
+        font-size: 20px;
+        padding: 3rem;
+        margin-bottom: 1rem;
+    
+    }
+    #nd:hover{
+        background-color: #ffc1cc;
+    }
+    
+    #rd{
+        /* margin-right: 1em; */
+        background-color: black;
+        color: white;
+        border: 1px solid black;
+        box-shadow: 0px 0px 10px 10px #ffc1cc;
+        font-family: 'bangers';
+        font-size: 20px;
+        padding: 3rem;
+        margin-bottom: 1rem;
+    
+    
+    }
+    #rd:hover{
+        background-color: #ffc1cc;
+    }
+    #th{
+        float: left;
+        background-color: black;
+        color: white;
+        border: 1px solid black;
+        box-shadow: 0px 0px 10px 10px #ffc1cc;
+        font-family: 'bangers';
+        font-size: 20px;
+        padding: 3rem;
+        margin-bottom: 1rem;
+    
+    }
+    #th:hover{
+        background-color: #ffc1cc;
+    }
+    
+    
+    
+    
+    #important{
+        display: flex;
+        margin-top: 20%;
+    }
+    
+
+  }
